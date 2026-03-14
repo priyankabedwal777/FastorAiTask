@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* { box-sizing: border-box; }
+body { margin: 0; font-family: 'Nunito', sans-serif; background: #f0f0f0; min-height: 100vh; display: flex; justify-content: center; }
+#root { width: 100%; max-width: 420px; min-height: 100vh; background: #fff; box-shadow: 0 0 40px rgba(0,0,0,.15); overflow-x: hidden; }
+input { font-family: 'Nunito', sans-serif; }
+button { font-family: 'Nunito', sans-serif; }
+.btn-primary { background: #FF5A3C; color: white; border: none; border-radius: 14px; padding: 15px 24px; font-size: 1rem; font-weight: 800; cursor: pointer; width: 100%; transition: all .2s; font-family: 'Nunito', sans-serif; }
+.btn-primary:hover { background: #e04a2e; }
+.btn-primary:active { transform: scale(.98); }
+.btn-primary:disabled { background: #ccc; cursor: not-allowed; }
+.no-scrollbar { scrollbar-width: none; -ms-overflow-style: none; }
+.no-scrollbar::-webkit-scrollbar { display: none; }
+@keyframes slideIn { from { opacity: 0; transform: translateX(24px); } to { opacity: 1; transform: translateX(0); } }
+@keyframes fadeUp { from { opacity: 0; transform: translateY(14px); } to { opacity: 1; transform: translateY(0); } }
+@keyframes spin { to { transform: rotate(360deg); } }
+.page-enter { animation: slideIn .3s ease-out; }
+.fade-in { animation: fadeUp .4s ease-out; }
+.spin { animation: spin 1s linear infinite; }
+.slide-in { animation: slideIn .3s ease-out; }
+.otp-box { width: 48px; height: 56px; text-align: center; font-size: 1.5rem; font-weight: 800; border: 2px solid #e5e7eb; border-radius: 12px; outline: none; transition: all .2s; }
+.otp-box:focus { border-color: #FF5A3C; box-shadow: 0 0 0 3px rgba(255,90,60,.15); }
+.otp-box.filled { border-color: #FF5A3C; background: #fff5f3; }
+.otp-box.has-error { border-color: #ef4444; }
