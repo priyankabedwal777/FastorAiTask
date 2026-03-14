@@ -2,7 +2,7 @@
 
 ---
 
-## ✨ What It Does
+## What It Does
 
 - **Phone + OTP Login** — Enter your mobile number, get a 6-digit code (demo OTP: `123456`), and you're in.
 - **Home Feed** — Pulls live restaurant data from the Fastor staging API and displays it in a clean, scrollable list with skeleton loading states.
@@ -13,7 +13,7 @@
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Tool               | Purpose                                |
 | ------------------ | -------------------------------------- |
@@ -26,7 +26,7 @@
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ```bash
 # 1. Install dependencies
