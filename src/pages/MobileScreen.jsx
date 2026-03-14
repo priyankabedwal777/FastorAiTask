@@ -58,7 +58,7 @@ export default function MobileScreen({ mobile, setMobile, onNext }) {
           Enter Your Mobile Number
         </h2>
         <p className="text-sm font-semibold text-gray-400 mb-8">
-          We will send you a 4 digit verification code
+          We will send you a 6 digit verification code
         </p>
 
         <div
